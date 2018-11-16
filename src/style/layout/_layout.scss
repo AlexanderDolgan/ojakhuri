@@ -6,18 +6,14 @@
 	overflow: hidden;
 }
 
-//content container
-.container {
-	@include container(0, 0);
-}
-
-//content container vertical padding
-.container-padding {
-	@include container;
-}
-
 .decor {
 	display: none;
+}
+
+.container {
+	position: relative;
+	max-width: $container;
+	margin: 0 auto;
 }
 
 @media (min-width: $b-xxlarge) {

@@ -39,5 +39,8 @@
     "gulp.spritesmith": "^6.9.0",
     "imagemin-pngquant": "^5.1.0",
     "rimraf": "^2.6.2"
+  },
+  "dependencies": {
+    "rigger": "^1.0.0"
   }
 }

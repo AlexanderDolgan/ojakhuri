@@ -1,18 +1,18 @@
 @import "mixin";
 
 //Global
-$global-font-family: 'Roboto', sans-serif;
-$second-font-family: 'Montserrat', sans-serif;
+$global-font-family: 'Circe', sans-serif;
+$second-font-family: 'Kazimir', serif;
 $global-font-size: 8px;
-$global-font-weight: 300;
-$body-font-size: 1.75rem;
-$global-line-height: 1.75;
+$global-font-weight: normal;
+$body-font-size: 2.2rem;
+$global-line-height: 1.5;
 $font-smooth: antialiased;
 
 //Colors
 $colors: (
-	primary: hsl(0,0,17),
-	secondary: hsl(0, 0, 0),
+	primary: hsl(37,100,84),
+	secondary: hsl(153, 28, 75),
 	third: hsl(309,100,80),
 	text: hsl(0,0,16),
 	accept: hsl(90,45,45),
@@ -41,14 +41,14 @@ $b-medium-only: 320px 959px;
 $b-large-only: 960px;
 
 //container width
-$container: 1080px;
+$container: 1170px;
 
 //Typography
 
-$paragraph-lineheight: 1.75;
+$paragraph-lineheight: $global-line-height;
 
 $header-font-family: $second-font-family;
-$header-font-weight: 600;
+$header-font-weight: bold;
 $header-color: $body-font-color;
 $header-text-transform: none;
 $header-lineheight: 1.2;
